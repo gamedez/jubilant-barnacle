@@ -19,7 +19,7 @@ body {
 }
 .header {
   background-color: #635854;
-  padding-top: 12px;
+  padding-top: 9px;
   padding-bottom: 12px;
   border-bottom: 4px solid #3596f5;
 }
@@ -36,9 +36,10 @@ body {
   list-style: none;
   display: flex;
   text-align: center;
+  margin-left: 71px;
 }
 .navbar-item {
-  margin-left: 40px;
+  margin-left: 44px;
   margin-right: 40px;
 }
 .navbar-link {
@@ -67,7 +68,7 @@ body {
 .main {
   max-width: 1280px;
   margin: auto;
-  padding-top: 54px;
+  padding-top: 49px;
   display: flex;
 }
 .main-info {
@@ -77,6 +78,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-left: 33px;
+  margin-top: 5px;
 }
 .home-image path {
   opacity: 0;
@@ -89,6 +92,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+path.current-floor {
+  opacity: 1;
 }
 .counter-button {
   background-color: #fff;
@@ -104,12 +110,13 @@ body {
   line-height: 44px;
   color: #635854;
   margin: 0;
+  margin-top: 57px;
 }
 .counter {
   color: #635854;
-  font-size: 124px;
+  font-size: 115px;
   font-family: "Bebas Neue", sans-serif;
-  margin-top: 10px;
+  margin-left: 2px;
 }
 .button-primary {
   border: none;
@@ -117,11 +124,13 @@ body {
   border-radius: 6px;
   padding: 16px 36px;
   color: #fff;
+  margin-bottom: 76px;
 }
 .footer {
   background: #d7d7d7;
   padding: 56px;
-  margin-top: 99px;
+  margin-top: 86px;
+  border-top: 4px solid #3596f5;
 }
 .container {
   max-width: 1280px;
